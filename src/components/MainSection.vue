@@ -37,6 +37,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+  main {
+    padding-top: 8vh;
+  }
 
 </style>
