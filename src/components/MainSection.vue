@@ -1,12 +1,39 @@
 <template>
   <main>
-    
+
+    <HeroSection />
+    <EverythingOneSection />
+    <HowWeWorkSection />
+    <JoinSection />
+    <TestimonialsSection />
+    <EverythingTwoSection />
+    <LatestNewsSection />
+    <NewsletterSection />
+
   </main>
 </template>
 
 <script>
-export default {
+import HeroSection from './sub-components/HeroSection.vue';
+import EverythingOneSection from './sub-components/EverythingOneSection.vue';
+import HowWeWorkSection from './sub-components/HowWeWorkSection.vue';
+import JoinSection from './sub-components/JoinSection.vue';
+import TestimonialsSection from './sub-components/TestimonialsSection.vue';
+import EverythingTwoSection from './sub-components/EverythingTwoSection.vue';
+import LatestNewsSection from './sub-components/LatestNewsSection.vue';
+import NewsletterSection from './sub-components/NewsletterSection.vue';
 
+export default {
+    components: { 
+        HeroSection, 
+        EverythingOneSection, 
+        HowWeWorkSection, 
+        JoinSection, 
+        TestimonialsSection, 
+        EverythingTwoSection, 
+        LatestNewsSection, 
+        NewsletterSection 
+    }
 }
 </script>
 
