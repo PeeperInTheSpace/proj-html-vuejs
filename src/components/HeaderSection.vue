@@ -63,12 +63,14 @@ export default {
 
 <style lang="scss" scoped>
 
+@import "../style/common.scss"; 
+
 header {
     height: 8vh;
     width: 100vw;
     padding: 0 10vw;
-    color: black;
-    background-color: white;
+    color: $genericText;
+    background-color: $blank;
     font-size: 15px;
     font-weight: 500;
     position: fixed;
@@ -85,8 +87,8 @@ header {
         height: 15px;
         width: 15px;
         border-radius: 50%;
-        background-color: #20ad96;
-        color: white;
+        background-color: $primary;
+        color: $blank;
         font-size: 10px;
         bottom: 10px;
         right: 42px;
@@ -115,7 +117,7 @@ header {
     .fl-searchbox {
         border: none;
         padding: 3px 15px;
-        background-color: #f5f5f5;
+        background-color: $lightBackground;
 
         &:focus {
             outline-width: 0;
@@ -124,9 +126,9 @@ header {
 
     .fl-searchbutton {
         border: none;
-        background-color: #f5f5f5;
+        background-color: $lightBackground;
         padding: 15px 15px;
-        color: #20ad96;
+        color: $primary;
 
         &:hover {
             cursor: pointer;
