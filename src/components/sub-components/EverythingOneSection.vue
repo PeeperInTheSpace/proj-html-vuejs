@@ -46,8 +46,6 @@ export default {
 @import "../../style/common.scss"; 
 
   main {
-    // DEBUG
-    // border: 2px solid blue;
 
     .fl-paragraph {
       width: 445px;
@@ -111,7 +109,7 @@ export default {
       .fl-semicircles {
         position: absolute;
         right: 450px;
-        bottom: -450px;
+        bottom: -420px;
         z-index: 3;
       }
 

@@ -1,5 +1,5 @@
 <template>
-  <section class="d-flex text-center align-items-center justify-content-center">
+  <main class="d-flex text-center align-items-center justify-content-center">
     <div>
       <div class="fl-herosidebuttons rounded-1 d-flex flex-column align-items-center gap-2 p-2">
         <img src="../../assets/img/ruler-triangle-icon.png" alt="ruler-triangle">
@@ -12,7 +12,7 @@
       <h1>Distant Mentoring Program</h1>
       <button class="rounded-1 mt-4">Download free guidebook <i class="fa-solid fa-arrow-right-long"></i></button>
     </div>
-  </section>
+  </main>
 </template>
   
 <script>
@@ -25,9 +25,9 @@
 
 @import "../../style/common.scss"; 
 
-
-  section {
+  main {
     height: 700px;
+    width: 100vw;
     background-image: url(../../assets/img/home-3-hero-bg.jpg);
     background-size: cover;
     color: white;
@@ -38,7 +38,7 @@
       width: 30px;
       background-color: white;
       position: absolute;
-      right: -5px;
+      right: 15px;
       top: 200px;
 
       img {

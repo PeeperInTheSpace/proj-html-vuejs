@@ -39,8 +39,11 @@ export default {
 
 <style lang="scss" scoped>
 
+@import "../style/common.scss"; 
+
   main {
     padding-top: 8vh;
+    overflow-x: hidden;
   }
 
 </style>
