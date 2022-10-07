@@ -8,7 +8,7 @@
             </li>
         </ul>
         <div class="d-flex justify-content-center align-items-center h-100 fl-header">
-            <img src="../assets/img/dark-logo.png" alt="logo" class="h-50">
+            <img src="../assets/img/dark-logo.png" alt="logo" class="h-50 fl-logo">
         </div>
         <div class="d-flex justify-content-end align-items-center fl-header">
             <div class="fl-headericon d-flex align-items-center gap-3">
@@ -76,10 +76,19 @@ header {
     position: fixed;
     z-index: 999;
 
+    .fl-logo:hover {
+        cursor: pointer;
+    }
+
     .fl-headericon {
         height: 20px;
         padding: 0px 15px;
         position: relative;
+
+        img:hover, .fa-circle-user:hover {
+            cursor: pointer;
+        }
+
     }
 
     .fl-carticonbadge {

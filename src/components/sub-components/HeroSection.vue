@@ -38,7 +38,7 @@
       width: 30px;
       background-color: white;
       position: absolute;
-      right: 0px;
+      right: -5px;
       top: 200px;
 
       img {
