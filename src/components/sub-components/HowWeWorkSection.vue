@@ -2,7 +2,7 @@
   <main>
     <section class="container d-flex justify-content-center align-items-center w-100">
       <div class="w-50">
-        <img src="../../assets/img//icon-youtube-play.png" alt="youtube-logo" class="fl-youtubelogo">
+        <img src="../../assets/img/icon-youtube-play.png" alt="youtube-logo" class="fl-youtubelogo">
         <img src="../../assets/img/stock-full-hd-11-670x450.jpg" alt="background" class="fl-mainimg rounded-2">
         <img src="../../assets/img/maxcoach-shape-05-150x150.png" alt="circle-dots-150" class="fl-circledots">
         <img src="../../assets/img/grey-cloud.png" alt="grey-cloud" class="fl-greycloud">
@@ -30,6 +30,10 @@ export default {
 <style lang="scss" scoped>
 
 @import "../../style/common.scss"; 
+
+main {
+  background-color: $mainBackground;
+}
 
   section {
     height: 55vh;

@@ -46,7 +46,7 @@ export default {
 @import "../../style/common.scss"; 
 
   main {
-
+    background-color: $mainBackground;
     .fl-paragraph {
       width: 445px;
 
