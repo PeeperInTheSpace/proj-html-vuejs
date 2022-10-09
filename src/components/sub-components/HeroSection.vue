@@ -10,7 +10,7 @@
       </div>
       <h4>Commence Business</h4>
       <h1>Distant Mentoring Program</h1>
-      <button class="rounded-1 mt-4">Download free guidebook <i class="fa-solid fa-arrow-right-long"></i></button>
+      <button class="rounded-1 mt-4"><span>Download free guidebook </span><i class="fa-solid fa-arrow-right-long"></i></button>
     </div>
   </main>
 </template>
@@ -68,6 +68,12 @@
       background-color: white;
       color: #1fad95;
       font-weight: 700;
+
+      &:hover, span:hover{
+        background-color: $primary;
+        color: $blank;
+      }
+
     }
 
   }

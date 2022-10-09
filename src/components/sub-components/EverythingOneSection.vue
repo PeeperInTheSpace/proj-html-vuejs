@@ -28,7 +28,7 @@
         <h5>FINISHED SESSIONS</h5>
       </div>
       <div>
-        <h1>4%</h1>
+        <h1>94%</h1>
         <h5>SATISFACTION RATE</h5>
       </div>
     </section>
