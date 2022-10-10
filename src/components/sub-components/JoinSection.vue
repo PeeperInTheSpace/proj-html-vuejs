@@ -12,7 +12,7 @@
                 <div class="p-4">
                     <h4 class="fl-prices">{{ item.price + item.priceCents }}</h4>
                     <p class="mb-4">{{ item.description }}</p>
-                    <div class="d-flex">
+                    <div class="d-flex align-items-center">
                         <i class="fa-regular fa-file-lines fl-cardicons"></i> <span>{{ item.lessonsN }}</span>
                         <i class="fa-regular fa-user  fl-cardicons"></i> <span>{{ item.studentsN }}</span>
                     </div>
