@@ -2,7 +2,7 @@
   <main>
     <section class="container d-flex justify-content-center align-items-center w-100">
       <div class="w-50">
-        <div class="fl-paragraph">
+        <div class="fl-paragraph position-relative">
           <img src="../../assets/img/brown-circle.png" alt="brown-circle" class="fl-browncircle">
           <h5 class="mb-3">EVERYTHING IN <strong>MAXCOACH</strong></h5>
           <h1 class="mb-3">Learn about our <h1 class="fl-highlighted d-inline">Work Culture</h1> at MaxCoach</h1>
@@ -11,11 +11,13 @@
         </div>
       </div>
       <div class="w-50">
-        <img src="../../assets/img/about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg" alt="small-image" class="fl-smallimg">
-        <img src="../../assets/img/maxcoach-shape-07-100x100.png" alt="dots" class="fl-dots">
-        <img src="../../assets/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="background" class="fl-mainimg" >
-        <img src="../../assets/img/maxcoach-shape-02.png" alt="semicircles" class="fl-semicircles">
-        <img src="../../assets/img/maxcoach-shape-08.png" alt="dots-big" class="fl-dots-big">
+        <div class="position-relative">
+          <img src="../../assets/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="background" class="fl-mainimg rounded-2">
+          <img src="../../assets/img/about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg" alt="small-image" class="fl-smallimg rounded-2">
+          <img src="../../assets/img/maxcoach-shape-07-100x100.png" alt="dots" class="fl-dots">
+          <img src="../../assets/img/maxcoach-shape-02.png" alt="semicircles" class="fl-semicircles">
+          <img src="../../assets/img/maxcoach-shape-08.png" alt="dots-big" class="fl-dots-big">
+        </div>
       </div>
     </section>
     <section class="fl-numbers container d-flex text-center justify-content-evenly align-items-center">
@@ -81,35 +83,35 @@ export default {
       .fl-smallimg {
         position: absolute;
         z-index: 3;
-        bottom: -100px;
-        right: 350px;
+        bottom: 250px;
+        right: 50px;
         height: 150px;
       }
 
       .fl-dots {
         position: absolute;
         z-index: 1;
-        bottom: -60px;
-        right: 450px;
+        bottom: 270px;
+        right: 150px;
       }
 
       .fl-dots-big {
         position: absolute;
         z-index: 1;
-        bottom: -400px;
-        right: 800px;
+        bottom: -50px;
+        right: 480px;
       }
 
       .fl-browncircle {
         position: absolute;
-        left: 780px;
-        bottom: -80px;
+        left: 480px;
+        top: -50px;
       }
 
       .fl-semicircles {
         position: absolute;
-        right: 450px;
-        bottom: -420px;
+        right: 150px;
+        bottom: -50px;
         z-index: 3;
       }
 

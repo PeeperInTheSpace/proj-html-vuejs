@@ -1,7 +1,7 @@
 <template>
   <main>
     <section class="container d-flex justify-content-center align-items-center w-100">
-      <div class="w-50">
+      <div class="w-50 position-relative">
         <img src="../../assets/img/icon-youtube-play.png" alt="youtube-logo" class="fl-youtubelogo">
         <img src="../../assets/img/stock-full-hd-11-670x450.jpg" alt="background" class="fl-mainimg rounded-2">
         <img src="../../assets/img/maxcoach-shape-05-150x150.png" alt="circle-dots-150" class="fl-circledots">
@@ -9,7 +9,7 @@
         <img src="../../assets/img/maxcoach-shape-07-100x100.png" alt="square-dots-100" class="fl-squaredots">
       </div>
       <div class="w-50">
-        <div class="fl-paragraph">
+        <div class="fl-paragraph position-relative">
           <img src="../../assets/img/brown-circle.png" alt="brown-circle" class="fl-browncircle">
           <h5 class="mb-3">HOW WE WORK</h5>
           <h1 class="mb-3">Upgrade Your<br>Skills <h1 class="fl-highlighted d-inline">Upgrade<br>Your Life</h1></h1>
@@ -43,8 +43,7 @@ main {
 
       .fl-browncircle {
         position: absolute;
-        left: 950px;
-        bottom: -700px;
+        bottom: 400px;
       }
 
       h5 {
@@ -83,29 +82,29 @@ main {
 
     .fl-greycloud {
       position: absolute;
-      top: 1550px;
-      left: 200px;
+      top: -100px;
+      right: 500px;
       z-index: 1;
     }
 
     .fl-circledots {
       position: absolute;
-      top: 1700px;
-      left: 200px;
+      top: 30px;
+      right: 580px;
       z-index: 2;
     }
 
     .fl-squaredots {
       position: absolute;
-      top: 1950px;
-      left: 750px;
+      bottom: -30px;
+      right: 100px;
       z-index: 1;
     }
 
     .fl-youtubelogo {
       position: absolute;
-      top: 1800px;
-      left: 520px;
+      top: 130px;
+      left: 210px;
       z-index: 4;
     }
 
